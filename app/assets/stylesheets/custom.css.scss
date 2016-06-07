@@ -1,0 +1,165 @@
+/*
+@media (max-width: 978px) {
+	.container {
+		padding:0;
+		margin:0;
+	}
+
+	body {
+		padding:0;
+	}
+
+	.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+}
+*/
+
+
+
+/* the umdcki at the top of each page */
+
+/*
+.page-header{
+	.container-fluid > a{
+		color: #FF00FF;
+		font-family: "Myriad Pro Light", Calibri, sans-serif;
+		font-size: 50px;
+	}
+}
+*/
+
+/* banner */
+.banner {
+	color: #FF00FF;
+	font-family: "Myriad Pro Light", Calibri, sans-serif;
+	font-size: 50px;
+}
+
+/* font for the navbar text */
+.navbar-default {
+  .container-fluid {
+    background-color: #FFFFFF;
+    .nav-header > h1> a {
+      color: black;
+      font-weight: bold;
+      font-family: 'Myriad Pro Light';
+    }
+    .navbar-nav > li > a {
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: 'Myriad Pro Light';
+    }
+
+  }
+}
+
+
+/* for the magnifying glass search thing
+.glyphicon-search {
+	float:right;
+}
+*/
+
+/* may need to change, but makes buttons transparent*/
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+/* for the centering of navbar */
+
+/*
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  	text-align: center;
+}
+*/
+
+
+
+.container-fluid {
+    padding: 10px 120px;
+}
+
+
+/* jumbotron */
+#main-jumbotron {
+
+	background: url("http://megrad.umd.edu/wp-content/uploads/2014/10/umd-flowers.png") no-repeat center center;
+	min-height: 400px;
+	width:100%;
+	height: 100%;
+	background-size: 100% 100%;
+}
+
+
+/* for hover color */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #000080;
+    color: #FFFFFF;
+}
+
+.navbar-header{
+	display:block;
+	border:0px;
+	background-color: #FFFFFF;
+}
+
+.three-images {
+	display: inline-block;
+	margin-left:50px;
+	margin-right:50px;
+	height:300px;
+}
+
+#images {
+	text-align:center;
+}
+
+#read-more-spacing {
+	margin-left: 225px;
+}
+
+#bottom-jumbotron {
+	background-color: #000000;
+	width:100%;
+	height: 100%;
+	background-size: 100% 100%;
+}
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #000;
+  color:white;
+  clear:both;
+  text-align: center;
+}
