@@ -1,26 +1,28 @@
 
 /* may need to adjust */
 .navbar {
-	border: 0;
-	margin: 0px;
 	background: white;
+	border-color:black;
+	border-radius: 0;
+	margin: 0;
 }
 
+.page-header {
+	border-color:transparent;
+	color: red;
+	font-family: 'Myriad Pro Light';
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 35px;
 
-.nav-header > h1 > a {
-	margin-left:15px;
 }
+
 
 
 /* font for the navbar text */
 .navbar-default {
   .container {
     background-color: #FFFFFF;
-    .nav-header > h1> a {
-      color: black;
-      font-weight: bold;
-      font-family: 'Myriad Pro Light';
-    }
     .navbar-nav > li > a {
       color: black;
       font-size: 20px;
@@ -31,12 +33,6 @@
   }
 }
 
-
-/* for the magnifying glass search thing
-.glyphicon-search {
-	float:right;
-}
-*/
 
 /* may need to change, but makes buttons transparent*/
 button {
@@ -62,8 +58,10 @@ button {
 	width:100%;
 	height: 100%;
 	background-size: 100% 100%;
-	padding-bottom: 100px;
+	margin:0;
 }
+
+
 
 
 /* for hover color */
@@ -74,18 +72,18 @@ button {
 
 .navbar-header{
 	display:block;
-	border:0px;
 }
 
 .three-images {
 	display: inline-block;
 	margin-left:50px;
-	margin-right:50px;
 	height:300px;
 }
 
+/* @@ may need to change if i feel should be all white */
 #images {
 	text-align:center;
+	background-color: #F7F8F5;
 }
 
 #read-more-spacing {
@@ -96,6 +94,7 @@ button {
 html {
   height: 100%;
   box-sizing: border-box;
+
 }
 
 body {
@@ -104,6 +103,8 @@ body {
   padding-bottom: 6rem;
   min-height: 100%;
   background-color: white;
+  overflow:auto;
+
 }
 
 
@@ -117,4 +118,5 @@ body {
   color:white;
   clear:both;
   text-align: center;
+
 }
