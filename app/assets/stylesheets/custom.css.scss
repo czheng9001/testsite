@@ -3,21 +3,29 @@
 .navbar {
 	background: white;
 	border-color:black;
+	border-right: transparent;
+	border-left: transparent;
 	border-radius: 0;
 	margin: 0;
 }
 
 .page-header {
 	border-color:transparent;
-	color: red;
 	font-family: 'Myriad Pro Light';
-	font-weight: bold;
-	font-size: 30px;
 	margin-left: 35px;
-
+	font-size: 30px;
 }
 
+#UMDCKI {
+	font-size: 30px;
+	font-color: red;
+	color: red;
+}
 
+#UMDCKI:hover {
+	color: #000000;
+	text-decoration: none;
+}
 
 /* font for the navbar text */
 .navbar-default {
@@ -34,7 +42,7 @@
 }
 
 
-/* may need to change, but makes buttons transparent*/
+/* may need to change, but makes buttons transparent
 button {
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -43,6 +51,7 @@ button {
     overflow: hidden;
     outline:none;
 }
+*/
 
 
 .container-fluid {
@@ -61,6 +70,11 @@ button {
 	margin:0;
 }
 
+/*
+#main-jumbotron:hover {
+	background: url("https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/13419139_10204622313356667_7142453064875979539_n.jpg?oh=a967dad88c35869ba7cfc1ec7927b7f8&oe=58049A7B");
+}
+*/
 
 
 
@@ -77,8 +91,10 @@ button {
 .three-images {
 	display: inline-block;
 	margin-left:50px;
+	margin-right:50px;
 	height:300px;
 }
+
 
 /* @@ may need to change if i feel should be all white */
 #images {
